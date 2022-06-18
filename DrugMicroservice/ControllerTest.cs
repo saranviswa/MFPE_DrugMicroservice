@@ -4,7 +4,7 @@ using DrugsMicroservice.Repository;
 using Moq;
 using NUnit.Framework;
 
-namespace DrugMicroserviceTest
+namespace DrugMicroservice.UnitTest
 {
     [TestFixture]
     public class ControllerTest

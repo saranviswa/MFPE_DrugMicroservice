@@ -1,7 +1,7 @@
 using DrugsMicroservice.Repository;
 using NUnit.Framework;
 
-namespace DrugMicroserviceTest
+namespace DrugMicroservice.UnitTest
 {
     [TestFixture]
     public class Tests

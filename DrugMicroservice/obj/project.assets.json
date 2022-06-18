@@ -6410,9 +6410,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Cognizant_internship\\MFPE_DrugsMicroservice\\DrugsMicroservice\\DrugMicroservice\\DrugMicroserviceTest.csproj",
-      "projectName": "DrugMicroserviceTest",
-      "projectPath": "D:\\Cognizant_internship\\MFPE_DrugsMicroservice\\DrugsMicroservice\\DrugMicroservice\\DrugMicroserviceTest.csproj",
+      "projectUniqueName": "D:\\Cognizant_internship\\MFPE_DrugsMicroservice\\DrugsMicroservice\\DrugMicroservice\\DrugMicroservice.UnitTest.csproj",
+      "projectName": "DrugMicroservice.UnitTest",
+      "projectPath": "D:\\Cognizant_internship\\MFPE_DrugsMicroservice\\DrugsMicroservice\\DrugMicroservice\\DrugMicroservice.UnitTest.csproj",
       "packagesPath": "C:\\Users\\bsara\\.nuget\\packages\\",
       "outputPath": "D:\\Cognizant_internship\\MFPE_DrugsMicroservice\\DrugsMicroservice\\DrugMicroservice\\obj\\",
       "projectStyle": "PackageReference",
