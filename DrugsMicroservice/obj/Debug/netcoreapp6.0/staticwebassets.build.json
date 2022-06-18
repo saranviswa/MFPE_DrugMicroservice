@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CvRCIPpHROV0K6wPYfvIFCDcYx9YnLnJR6S+B+e4j2s=",
+  "Source": "DrugsMicroservice",
+  "BasePath": "_content/DrugsMicroservice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

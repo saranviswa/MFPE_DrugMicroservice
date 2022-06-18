@@ -1,0 +1,12 @@
+﻿namespace DrugsMicroservice
+{
+    public class app
+    {
+    }
+}
+INFO  06:55:17 Application started. Press Ctrl+C to shut down.
+INFO  06:55:17 Hosting environment: Development
+INFO  06:55:17 Content root path: D:\Cognizant_internship\MFPE_DrugsMicroservice\DrugsMicroservice\DrugsMicroservice
+INFO  06:56:31 The drug id 1001received from GetDrugById method
+INFO  07:00:40 The drug name Crocinreceived from GetDrugByName method
+INFO  07:00:40 Returning the druglist

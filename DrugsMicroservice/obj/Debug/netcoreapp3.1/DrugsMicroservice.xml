@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DrugsMicroservice</name>
+    </assembly>
+    <members>
+        <member name="M:DrugsMicroservice.Controllers.DrugController.GetDrugById(System.Int32)">
+            <summary>
+            This Method gets the drug id and returns the details
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrugsMicroservice.Controllers.DrugController.GetDrugByName(System.String)">
+            <summary>
+            This Method gets the drug name and returns the details
+            </summary>
+            <param name="Name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrugsMicroservice.Controllers.DrugController.GetDrugByLocation(System.Int32,System.String)">
+            <summary>
+            This Methods gets the drug id, location and returns the quantity in that location
+            </summary>
+            <param name="DrugId"></param>
+            <param name="Location"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
