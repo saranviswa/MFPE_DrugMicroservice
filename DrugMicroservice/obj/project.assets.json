@@ -1618,7 +1618,7 @@
       },
       "DrugsMicroservice/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.Extensions.Logging.Log4Net.AspNetCore": "3.1.5",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.14.0",
