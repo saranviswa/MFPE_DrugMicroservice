@@ -1,0 +1,34 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mfpedrugmicroservice-deployment
+  labels:
+    app: DrugsMicroservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+        app: DrugsMicroservice
+  template: 
+    metadata: 
+        labels: 
+            app: DrugsMicroservice
+    spec: 
+        containers: 
+        - name: mfpedrugmicroservicecr
+          image: mfpedrugmicroservicefinalv1.azurecr.io/mfpedrugmicroservicefinalv1cr:latest
+          ports: 
+          - containerPort: 8080
+        imagePullSecrets:
+        - name: webapisvcsecret
+---
+apiVersion: v1
+kind: Service
+metadata: 
+    name: mfpedrugmicroservice
+spec: 
+    type: LoadBalancer
+    ports: 
+    - port: 80
+    selector:
+        app : DrugsMicroservice
